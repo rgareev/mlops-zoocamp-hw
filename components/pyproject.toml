@@ -1,20 +1,19 @@
 [tool.poetry]
-name = "mlops-zoomcamp-notebooks"
+name = "mlops-zoocamp-components"
 version = "0.1.0"
 description = ""
-authors = ["Rinat Gareev <rgareev@provectus.com>"]
+authors = ["Rinat Gareev <aldvinaldvin@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 pandas = "^1.4.2"
-pyarrow = "^8.0.0"
 scikit-learn = "^1.1.1"
-matplotlib = "^3.5.2"
-seaborn = "^0.11.2"
+pyarrow = "^8.0.0"
 mlflow = "^1.26.1"
+matplotlib = "^3.5.2"
+hyperopt = "^0.2.7"
 
 [tool.poetry.dev-dependencies]
-ipykernel = "^6.13.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
