@@ -14,6 +14,7 @@ matplotlib = "^3.5.2"
 hyperopt = "^0.2.7"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.13.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
